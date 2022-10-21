@@ -1,0 +1,46 @@
+#header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000;
+    ul{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        li{
+            list-style: none;
+            margin-left: 20px;
+            a{
+                text-decoration: none;
+                color: #7f5539;
+                font-size: 20px;
+                padding: 6px 15px;
+                border-radius: 20px;
+            }
+            a:hover,
+            a.home{
+                background-color: #b08968;
+                color: #f8f4f0;
+            }
+        }
+    }
+}
+
+
+////Logo Pawlatki ////
+#header .logo
+{
+    font-size: 3em;
+    text-decoration: none;
+    color: #7f5539;
+    font-weight: 700;
+    font-family: 'Dancing Script', cursive;
+}
+
+
+

@@ -1,0 +1,168 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=Poppins:wght@100;300;500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  background-image: linear-gradient(180deg, #ffffff 0, #fbf4ed 25%, #ede0d4 50%, #e0ccbc 75%, #d5bbaa 100%);
+  overflow-x: hidden;
+  min-height: 100vh;
+  user-select: none;
+  font-family: 'Poppins', sans-serif; }
+
+main {
+  width: 100%;
+  overflow: hidden; }
+
+#header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 30px 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 1000; }
+  #header ul {
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    #header ul li {
+      list-style: none;
+      margin-left: 20px; }
+      #header ul li a {
+        text-decoration: none;
+        color: #7f5539;
+        font-size: 20px;
+        padding: 6px 15px;
+        border-radius: 20px; }
+      #header ul li a:hover,
+      #header ul li a.home {
+        background-color: #b08968;
+        color: #f8f4f0; }
+
+#header .logo {
+  font-size: 3em;
+  text-decoration: none;
+  color: #7f5539;
+  font-weight: 700;
+  font-family: 'Dancing Script', cursive; }
+
+.section-1 {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .section-1 .left {
+    position: absolute;
+    top: 65px;
+    left: -160px;
+    width: 80%;
+    height: auto;
+    object-fit: cover;
+    pointer-events: none;
+    z-index: 5; }
+  .section-1 .right {
+    position: absolute;
+    top: 40px;
+    right: -160px;
+    width: 70%;
+    height: auto;
+    object-fit: cover;
+    pointer-events: none;
+    z-index: 5; }
+  .section-1 .sun {
+    position: absolute;
+    object-fit: contain;
+    pointer-events: none;
+    top: 180px;
+    left: 40px;
+    z-index: 1;
+    filter: brightness(110%);
+    filter: contrast(1.2); }
+  .section-1 .clouds {
+    position: absolute;
+    object-fit: cover;
+    pointer-events: none;
+    top: 75px;
+    right: 100px; }
+  .section-1 .house {
+    position: absolute;
+    object-fit: cover;
+    pointer-events: none;
+    top: 330px;
+    left: -170px; }
+  .section-1 .family {
+    position: absolute;
+    object-fit: contain;
+    pointer-events: none;
+    top: 548px;
+    right: -40px;
+    z-index: 1;
+    bottom: 100px; }
+  .section-1 #text {
+    position: absolute;
+    color: #7f5539;
+    font-size: 10vw;
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    line-height: 0.55em; }
+    .section-1 #text span {
+      font-size: 0.25em;
+      font-family: 'Poppins', sans-serif;
+      letter-spacing: 2px;
+      font-weight: 400; }
+
+.section-1::before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 20px;
+  background: linear-gradient(to top, #b08968, transparent);
+  z-index: 10; }
+
+.section-2 {
+  position: relative;
+  padding: 100px;
+  background-color: #b08968;
+  color: white;
+  z-index: 20; }
+
+.footer-conrainer {
+  text-align: center;
+  background-color: #191d21;
+  color: whitesmoke; }
+  .footer-conrainer .fb {
+    width: 150px;
+    height: 90px;
+    display: inline-block; }
+  .footer-conrainer .fb:hover {
+    background-color: #4668b3;
+    cursor: pointer; }
+  .footer-conrainer .ig {
+    width: 150px;
+    height: 90px;
+    display: inline-block; }
+  .footer-conrainer .ig:hover {
+    background-color: #f09533cd;
+    cursor: pointer; }
+  .footer-conrainer .tik {
+    width: 150px;
+    height: 90px;
+    display: inline-block; }
+  .footer-conrainer .tik:hover {
+    background-color: #ff0050;
+    cursor: pointer; }
+
+.info {
+  background-color: #0e0f11;
+  color: whitesmoke;
+  text-align: center; }
+
+/*# sourceMappingURL=style.css.map */

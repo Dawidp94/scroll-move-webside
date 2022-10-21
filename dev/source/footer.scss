@@ -1,0 +1,44 @@
+
+.footer-conrainer{
+    text-align: center;
+    background-color: #191d21;
+    color: whitesmoke;
+    .fb{
+        width: 150px;
+        height: 90px;
+        display: inline-block;
+    }
+    .fb:hover{
+        background-color: #4668b3;
+        cursor: pointer;
+    }
+    .ig{
+        width: 150px;
+        height: 90px;
+        display: inline-block;
+    }
+    .ig:hover{
+        background-color: #f09533cd;
+        cursor: pointer;
+    }
+    
+    .tik{
+        width: 150px;
+        height: 90px;
+        display: inline-block;
+    }
+    .tik:hover{
+        background-color: #ff0050;
+        cursor: pointer;
+    }
+}
+
+.info{
+    background-color: #0e0f11;
+    color: whitesmoke;
+    text-align: center;
+}
+
+
+
+
